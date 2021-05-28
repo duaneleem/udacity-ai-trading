@@ -43,5 +43,18 @@
   ## Distributions of Returns and Prices
   - Normality and Long-Term Investments
 ## Distributions of Returns and Prices
+- ln(1+r)≈r
+- May be reasonable to consider short-term returns as approximately normally distributed for some purposes
+- _Bernoulli_ random variable
+- _lognormal distribution_
+- Distribution of Log Returns
+  - https://youtu.be/cGoXGiO1DYk
+  - 0:00 Daily Price Values
+  - 0:24 1+r = Pt / (Pt - 1)
+  - 0:49 Central Limit Theorem
+  - 1:57: Log-Normal Distribution
+      - If y is distributed normally, then e^y is distributed log-normally
+  - Identically distributed (IID) random variables
+## Why Log Returns
 - 
 
