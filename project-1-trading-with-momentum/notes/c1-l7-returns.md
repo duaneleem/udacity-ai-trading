@@ -55,6 +55,4 @@
   - 1:57: Log-Normal Distribution
       - If y is distributed normally, then e^y is distributed log-normally
   - Identically distributed (IID) random variables
-## Why Log Returns
-- 
 
