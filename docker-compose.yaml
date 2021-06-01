@@ -1,0 +1,15 @@
+version: "3.9"
+services:
+  udacity-ai-trading:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    volumes:
+      - './:/home/jovyan/work'
+    environment:
+      JUPYTER_ENABLE_LAB: 'yes'
+    ports:
+      - "10000:8888"
+
+
+

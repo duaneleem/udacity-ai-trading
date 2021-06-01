@@ -43,7 +43,9 @@
 - Another specific definition of alpha, which we’ll primarily focus on in this course, is that of an alpha vector.
 - An alpha vector is a list of numbers, one for each stock in a portfolio, that gives us a signal as to the relative future performance of these stocks.
 ## Test Returns for Statistical Significance
-- 
+- scipy.stats: https://docs.scipy.org/doc/scipy/reference/tutorial/stats.html
+- T-test and KS-test: https://docs.scipy.org/doc/scipy/reference/tutorial/stats.html#t-test-and-ks-test
+
 
 
 
