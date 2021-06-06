@@ -45,6 +45,12 @@
 ## Test Returns for Statistical Significance
 - scipy.stats: https://docs.scipy.org/doc/scipy/reference/tutorial/stats.html
 - T-test and KS-test: https://docs.scipy.org/doc/scipy/reference/tutorial/stats.html#t-test-and-ks-test
+## Finding Alpha
+- https://youtu.be/r8lfWVhfQC0
+  - 0:18 Turn observation into expression
+  - 0:26 Alpha Research
+  - 0:43 Improve Strategy, backtesting
+
 
 
 
