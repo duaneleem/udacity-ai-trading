@@ -1,0 +1,7 @@
+statsmodels
+colour
+numpy
+pandas
+plotly
+scikit-learn
+six
