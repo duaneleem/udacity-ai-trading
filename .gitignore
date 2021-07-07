@@ -2,5 +2,8 @@
 __pycache__/
 *.py[cod]
 
+# Python Virtual Environments
+project-1-trading-with-momentum/env
+
 .ipynb_checkpoints
 
