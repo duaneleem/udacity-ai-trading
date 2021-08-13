@@ -29,4 +29,6 @@ df.to_excel('./temp-data.xlsx', index=False)
 FileLinks('./')
 ```
 
+## AI Trading Docs
+Zipline - https://zipline.ml4trading.io/api-reference.html?highlight=dailyreturns#zipline.pipeline.factors.DailyReturns
 
