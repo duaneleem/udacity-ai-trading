@@ -19,6 +19,18 @@ deactivate
 
 Docs: https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/
 
+### Switching Virtual Environments
+```sh
+# List environments
+conda env list
+
+# Switch environments
+conda activate UdacityAI
+conda deactivate UdacityAI
+```
+
+Docs: https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#activating-an-environment
+
 
 ## Download an unreachable CSV
 ```python
