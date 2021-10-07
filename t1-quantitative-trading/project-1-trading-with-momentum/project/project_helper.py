@@ -20,7 +20,7 @@ def _generate_traces(name_df_color_data):
             name=name,
             x=df.index,
             y=df,
-            mode='lines',
+            mode='line',
             line={'color': color}))
 
     return traces

@@ -5,5 +5,8 @@ __pycache__/
 # Python Virtual Environments
 project-1-trading-with-momentum/env
 
+# Python Identifier
 .ipynb_checkpoints
+*Zone.Identifier
 
+temp
