@@ -7,7 +7,8 @@ def get_links(cik, priorto, count):
         str(cik)+"&type=10-K&dateb="+str(priorto)+"&owner=exclude&output=xml&count="+str(count)
     
     # parse the website and extract links
-    data = requests.get(link).text
+    #data = requests.get(link).text
+    data = requests.get(link, data={ 'User-Agent': 'UdacityHomework/0.01' }).text
     # print("see tentative links for all documents:")
     # print(link)
     
@@ -30,7 +31,8 @@ def get_links(cik, priorto, count):
 
 # clean up the soup we construct from the links
 def clean_soup(link):
-    data = requests.get(link).text
+    #data = requests.get(link).text
+    data = requests.get(link, data={ 'User-Agent': 'UdacityHomework/0.01' }).text
     soup = Soup(data, "lxml")
     blacklist = ["script", "style"]
     attrlist = ["class", "id", "name", "style", 'cellpadding', 'cellspacing']
