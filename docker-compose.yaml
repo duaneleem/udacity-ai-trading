@@ -6,6 +6,7 @@ services:
       dockerfile: Dockerfile
     volumes:
       - './:/home/jovyan/work'
+    restart: always
     environment:
       JUPYTER_ENABLE_LAB: 'yes'
     ports:
