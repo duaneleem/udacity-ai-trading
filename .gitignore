@@ -9,4 +9,7 @@ project-1-trading-with-momentum/env
 .ipynb_checkpoints
 *Zone.Identifier
 
+# Marked temp files/folders
 temp
+*.temp.*
+
