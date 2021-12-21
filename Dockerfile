@@ -7,3 +7,14 @@ RUN conda create -y -n UdacityAI python=3.6 ipykernel && \
     source activate UdacityAI && \
     ipython kernel install --name UdacityAI --user
 
+## TODO: Install Python Deps
+RUN pip3 install \
+  alphalens \
+  nltk \
+  numpy \
+  pandas \
+  scikit-learn \
+  torch \
+  tqdm
+
+
