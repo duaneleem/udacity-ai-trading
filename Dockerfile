@@ -9,12 +9,15 @@ RUN conda create -y -n UdacityAI python=3.6 ipykernel && \
 
 ## TODO: Install Python Deps
 RUN pip3 install \
-  alphalens \
-  nltk \
+  # Data Science
   numpy \
   pandas \
-  scikit-learn \
-  torch \
-  tqdm
+  alphalens \
+  tqdm \
+  # Machine Learning
+  torch torchvision \
+  ## NLP
+  nltk \
+  scikit-learn
 
 
