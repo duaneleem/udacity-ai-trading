@@ -15,6 +15,7 @@ RUN pip3 install \
   alphalens \
   tqdm \
   # Machine Learning
+  sklearn \
   torch torchvision \
   ## NLP
   nltk \
