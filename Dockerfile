@@ -7,6 +7,10 @@ RUN conda create -y -n UdacityAI python=3.6 ipykernel && \
     source activate UdacityAI && \
     ipython kernel install --name UdacityAI --user
 
+## Linux Deps
+RUN apt-get update -y && \
+  apt-get install graphviz -y
+
 ## TODO: Install Python Deps
 RUN pip3 install \
   # Data Science

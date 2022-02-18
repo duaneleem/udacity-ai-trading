@@ -2,6 +2,18 @@
 Notes on the topics of AI engineering for Trading I have went through.
 
 
+## Project Requirements
+### Dependencies
+Several of the work requires certain packages installed in the environment.  I've compiled a list of that in this section.
+```sh
+# Switch to UdacityAI
+conda activate UdacityAI
+
+# Install required Python libraries.
+conda install graphviz
+```
+
+
 ## Tar Project Folder
 Run the following in a cell to tar:
 ``` !tar chvfz notebook.tar.gz * ```
