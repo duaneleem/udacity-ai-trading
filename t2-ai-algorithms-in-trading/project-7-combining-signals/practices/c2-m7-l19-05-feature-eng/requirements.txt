@@ -1,0 +1,16 @@
+alphalens
+colour
+cycler
+numpy
+pandas
+plotly
+pyparsing
+python-dateutil
+pytz
+requests
+scipy
+scikit-learn
+six
+zipline
+graphviz
+shap
