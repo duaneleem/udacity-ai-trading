@@ -5,6 +5,7 @@
 - 0:30 Difference in price
 - 0:42 Return = Percentage Return or Raw Return
 - 0:55: Return Figures
+
 ## Log Returns
 - https://youtu.be/62fZN1QnGjc
 - 0:40 Raw Returns & Log Returns
@@ -12,6 +13,7 @@
 - Converting between raw returns and log returns
   - R=ln(r+1)
   - r=eR−1
+  
 ## Log Returns and Compounding
 - If you invest $100 in an asset, and the rate of return is 4% per year, and the amount of interest accrued is only calculated after the money has sat in the account for 1 year, how much money do you have after 1 year?
   - 1st Year: $100 + $100*0.04 = $104
@@ -40,8 +42,10 @@
 - Annualized Rate of Return, annualizing the rate of continuous compounding
 - Numerical Stability
   - Sometimes the computation will incorrectly yield the value 0. This is called arithmetic underflow. 
-  ## Distributions of Returns and Prices
-  - Normality and Long-Term Investments
+
+## Distributions of Returns and Prices
+- Normality and Long-Term Investments
+  
 ## Distributions of Returns and Prices
 - ln(1+r)≈r
 - May be reasonable to consider short-term returns as approximately normally distributed for some purposes

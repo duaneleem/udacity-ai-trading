@@ -4,11 +4,13 @@
 - https://youtu.be/O7c6bPXBUsU
   - 0:50 Trading hypothesis: "Retail stocks rise during the holiday shopping seasons."
   - 0:56 Trading hypothesis: "Oil stocks that deviate from the oil sector index beyond a certain threshold are bound to fall back."
+  
 ## Momentum-based Signals
 - https://youtu.be/RedwbmYg6e4
   - 0:00 Newton's First Law of Motion
   - 1:12 Technical Indicators, Volumes, New Highs
 - Momentum is an empirically observed phenomenon that past "winners" tend to continue to outperform other stocks and past "losers" continue to underperform.
+
 ## Long and Short Positions
 - https://youtu.be/TCOFgM-hxkQ
   - 0:10 Buy
@@ -17,6 +19,7 @@
   - 1:55 Portfolio of Stocks | Rank Order Stocks
   - 2:08 Top Performers keep on rising
   - 2:12 Bottom Performers likely to keep falling
+
 ## Trading Stategy
 - https://youtu.be/rrCHC20FkIc
   - Long & Short Positions
@@ -35,6 +38,7 @@
   - 1:05 Standard Error of the Mean
   - 1:20 t-distribution, p-value
   - 4:03 Data-snooping, P-hacking
+
 ## Disambiguation of the term “Alpha”
 - In mathematics, you’ll see alpha refer to the significance level of a hypothesis test. 
 - In regression, you’ll see alpha refer to the y-intercept of a straight line.
@@ -42,9 +46,11 @@
 -  The common thread among these definitions is that alpha is the extra value that an investment professional can add to the performance of an investment. 
 - Another specific definition of alpha, which we’ll primarily focus on in this course, is that of an alpha vector.
 - An alpha vector is a list of numbers, one for each stock in a portfolio, that gives us a signal as to the relative future performance of these stocks.
+
 ## Test Returns for Statistical Significance
 - scipy.stats: https://docs.scipy.org/doc/scipy/reference/tutorial/stats.html
 - T-test and KS-test: https://docs.scipy.org/doc/scipy/reference/tutorial/stats.html#t-test-and-ks-test
+
 ## Finding Alpha
 - https://youtu.be/r8lfWVhfQC0
   - 0:18 Turn observation into expression
